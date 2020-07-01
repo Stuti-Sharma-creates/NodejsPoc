@@ -1,28 +1,35 @@
 # NodejsPoc
 This is a demo shopping system query handling node js project
 
-Libraries 
-npm install express
-npm install mongoose
-npm install mongodb
-npm install bcryptjs
-npm install jsonwebtoken
+## Libraries 
+ #### express, mongoose, mongodb, bcryptjs, jsonwebtoken
 
-running the application 
-npm run dev
+## Steps to run the application 
 
-Structure 
-src 
-   db-my_mongoose.js: database connctivity
-   index.js-->entry point to application
-   models--> mongoose models nad schemas
-             User
-             Product
-             Order :- has a referrnce field from user
+#### npm install
+#### npm run dev
 
-  middleware--> two aunthentication functions
-              Authenticate--> to check logged in user
-              Authpro---> to make sure only admin alters product collection
+
+### Structure 
+
+src
+ 
+   db-my_mongoose.js: database connectivity
+   
+index.js-->entry point to application
+   
+models--> mongoose models and schemas
+  
+  User
+
+  Product
+
+  Order :- has a reference field from user
+
+middleware --two authentication functions
+
+Authenticate--> to check logged in user
+              Authpro--> to make sure only admin alters product collection
               
   routes--> all different requests routes to handle all queries
             user 
