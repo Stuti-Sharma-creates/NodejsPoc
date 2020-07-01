@@ -1,11 +1,13 @@
 # NodejsPoc
 This is a demo shopping system query handling node js project
+
 Libraries 
 npm install express
 npm install mongoose
 npm install mongodb
 npm install bcryptjs
 npm install jsonwebtoken
+
 Structure 
 src 
    db-my_mongoose.js: database connctivity
