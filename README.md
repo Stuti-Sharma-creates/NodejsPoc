@@ -1,14 +1,11 @@
 # NodejsPoc
 This is a demo shopping system query handling node js project
-
 Libraries 
-
 npm install express
 npm install mongoose
 npm install mongodb
 npm install bcryptjs
 npm install jsonwebtoken
-
 Structure 
 src 
    db-my_mongoose.js: database connctivity
@@ -22,7 +19,6 @@ src
               Authenticate--> to check logged in user
               Authpro---> to make sure only admin alters product collection
               
-
   routes--> all different requests routes to handle all queries
             user 
             product
