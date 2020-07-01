@@ -8,6 +8,9 @@ npm install mongodb
 npm install bcryptjs
 npm install jsonwebtoken
 
+running the application 
+npm run dev
+
 Structure 
 src 
    db-my_mongoose.js: database connctivity
